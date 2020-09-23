@@ -1,4 +1,5 @@
 ### Hey 👋🏽, I'm [DgtalBug!](https://dgtalbug.in) 
+
 <a href="https://twitter.com/dgtalbug">
   <img align="left" alt="Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
 </a>
@@ -8,18 +9,22 @@
 <a href="https://medium.com/@dgtalbug">
   <img align="left" alt="Medium" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/medium.svg" />
 </a>
-
-<!--
-**dgtalbug/dgtalbug** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br/>
+<br/>
+  
+```javascript
+(async () => {
+  const dgtalbug = {
+      bio:`A Personality of Popular Sanguine @ work and Perfect Melancholy @ emotions. My Love for 
+           programming started when I started developing for ${Android}`,
+      firstLove:[Node, React, Angular, Laravel, Flutter],
+      crush:[Js, TypeScript],
+      crazyAbout:[Design Patterns],
+      recentAddiction:[GraphQL, Docker],
+      communities:{
+                  'contributor':Google Assitant Actions,
+                  'member':GDG Pune,
+                }
+  };
+})();
+```
