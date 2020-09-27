@@ -1,8 +1,5 @@
 ### Hey 👋🏽, I'm [DgtalBug!](https://dgtalbug.in) 
 
-<a href="https://twitter.com/dgtalbug">
-  <img align="left" alt="Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
-</a>
 <a href="https://github.com/dgtalbug">
   <img align="left" alt="Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
 </a>
