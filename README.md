@@ -20,7 +20,7 @@
       recentAddiction:[GraphQL, Docker],
       communities:{
                   'contributor':Google Assitant Actions,
-                  'member':GDG Pune,
+                  'member':Google Android,
                 }
   };
 })();
