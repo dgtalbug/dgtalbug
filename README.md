@@ -12,12 +12,12 @@
 ```javascript
 (async () => {
   const dgtalbug = {
-      bio:`A Personality of Popular Sanguine @ work and Perfect Melancholy @ emotions. My Love for 
+      bio:`A Realist and a Personality of Popular Sanguine @ work. My Love for 
            programming started when I started developing for ${Android}`,
-      firstLove:[Node, React, Angular, Laravel, Flutter],
+      firstLove:[Node, React, Angular, Flutter, Nestjs],
       crush:[Js, TypeScript],
       crazyAbout:[Design Patterns],
-      recentAddiction:[GraphQL, Docker],
+      recentAddiction:[GraphQL, Docker, Go],
       communities:{
                   'contributor':Google Assitant Actions,
                   'member':Google Android,
