@@ -12,15 +12,15 @@
 ```javascript
 (async () => {
   const dgtalbug = {
-      bio:`A Realist and a Personality of Popular Sanguine @ work. My Love for 
-           programming started when I started developing for ${Android}`,
-      firstLove:[Node, React, Angular, Flutter, Nestjs],
-      crush:[Js, TypeScript],
+      bio:`A Realist and a Personality of Popular Sanguine. My Love for 
+           programming started when I started developing ${Android} Apps.`,
+      firstLove:[Js, Node, React, Angular, Nestjs],
+      crush:[TypeScript, Python],
       crazyAbout:[Design Patterns],
       recentAddiction:[GraphQL, Docker, Go],
       communities:{
                   'contributor':Google Assitant Actions,
-                  'member':Google Android,
+                  'member':Google Android Community,
                 }
   };
 })();
