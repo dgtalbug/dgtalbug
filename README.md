@@ -14,10 +14,10 @@
   const dgtalbug = {
       bio:`A Realist and a Personality of Popular Sanguine. My Love for 
            programming started when I started developing ${Android} Apps.`,
-      firstLove:[Js, Node, React, Angular, Nestjs],
+      firstLove:[Js, Java],
       crush:[TypeScript, Python],
-      crazyAbout:[Design Patterns],
-      recentAddiction:[GraphQL, Docker, Go],
+      crazyAbout:[Functional Programming, Scripting],
+      recentAddiction:[Docker, Go, AWS],
       communities:{
                   'contributor':Google Assitant Actions,
                   'member':Google Android Community,
