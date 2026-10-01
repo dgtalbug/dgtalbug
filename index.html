@@ -111,6 +111,13 @@
       .nav a:hover { color: var(--ink); background: var(--lime-soft); }
       .nav a.active { color: var(--ink); background: var(--chip); }
       .header-actions { display: flex; align-items: center; gap: 10px; }
+      .header-cta {
+        min-height: 40px; display: inline-flex; align-items: center; gap: 8px; padding: 0 14px;
+        border: 1px solid var(--lime); border-radius: 12px; background: var(--lime); color: var(--lime-ink);
+        font-size: 0.82rem; font-weight: 600; white-space: nowrap;
+      }
+      .header-cta:hover { background: var(--lime-vivid); border-color: var(--lime-vivid); }
+      .header-cta .lu { width: 15px; height: 15px; }
       .mobile-menu summary {
         width: 40px; height: 40px; border: 1px solid var(--line-2); border-radius: 12px; background: transparent; color: var(--ink);
         cursor: pointer; display: inline-grid; place-items: center; padding: 0;
@@ -401,6 +408,8 @@
       }
       @media (max-width: 560px) {
         .shell { width: min(100% - 24px, 520px); }
+        .header-inner { gap: 10px; }
+        .header-cta { gap: 5px; padding: 0 9px; font-size: 0.75rem; }
         .metric { grid-template-columns: 1fr; gap: 8px; padding: 20px 22px; }
         .metric .metric-text { grid-column: 1; grid-row: auto; }
         .hero h1 { font-size: clamp(2.4rem, 11.5vw, 3.4rem); }
@@ -432,6 +441,8 @@
           <a href="#impact">Impact</a><a href="#work">Work</a><a href="#engineering">Engineering</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
         </nav>
         <div class="header-actions">
+          <a class="header-cta" href="https://sharrd.dgtalbug.dev" target="_blank" rel="noreferrer">Explore Sharrd <svg class="lu lu-arrow-up-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7" />
+  <path d="M7 7h10v10" /></svg></a>
           <details class="mobile-menu">
             <summary aria-label="Open navigation"><svg class="lu lu-menu" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16" />
   <path d="M4 12h16" />
@@ -466,8 +477,8 @@
               </p>
               <p class="hero-summary rise" style="--d: 340ms">9+ years designing and operating distributed, cloud-native, event-driven, and AI/ML systems across GCP and AWS — owned from architecture and ingestion through deployment, observability, and production support.</p>
               <div class="hero-actions rise" style="--d: 420ms">
-                <a class="button button-primary" href="#work">Explore the work <svg class="lu lu-arrow-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14" />
-  <path d="m12 5 7 7-7 7" /></svg></a>
+                <a class="button button-primary" href="https://sharrd.dgtalbug.dev" target="_blank" rel="noreferrer">Explore Sharrd <svg class="lu lu-arrow-up-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7" />
+  <path d="M7 7h10v10" /></svg></a>
                 <a class="button" href="https://docs.google.com/document/d/1_nczwHmqvPVxkXRFvFTYj8LkkbhuvYncoCALQAfH-QU/view" target="_blank" rel="noreferrer"><svg class="lu lu-file-text" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
   <path d="M14 2v5a1 1 0 0 0 1 1h5" />
   <path d="M10 9H8" />
@@ -781,7 +792,9 @@
           <h2 class="reveal" style="--d: 60ms">Build systems that hold up in production.</h2>
           <p class="contact-lead reveal" style="--d: 120ms">Distributed systems, AI/ML platforms, forward-deployed engineering, and developer infrastructure. The resume has the details; GitHub has the proof.</p>
           <div class="contact-links reveal" style="--d: 180ms">
-            <a class="primary" href="https://docs.google.com/document/d/1_nczwHmqvPVxkXRFvFTYj8LkkbhuvYncoCALQAfH-QU/view" target="_blank" rel="noreferrer"><svg class="lu lu-file-text" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
+            <a class="primary" href="https://sharrd.dgtalbug.dev" target="_blank" rel="noreferrer">Explore Sharrd <svg class="lu lu-arrow-up-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7" />
+  <path d="M7 7h10v10" /></svg></a>
+            <a href="https://docs.google.com/document/d/1_nczwHmqvPVxkXRFvFTYj8LkkbhuvYncoCALQAfH-QU/view" target="_blank" rel="noreferrer"><svg class="lu lu-file-text" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
   <path d="M14 2v5a1 1 0 0 0 1 1h5" />
   <path d="M10 9H8" />
   <path d="M16 13H8" />
